@@ -780,9 +780,12 @@ form {
     fill: var(--iris)
 }
 
-.visually-hidden:checked + .checkbox-span {
+
+input[type="checkbox"]:checked + label .checkbox-span {
     background-color: var(--ocean);
     border: none;
+}
+input[type="checkbox"]:checked+ label .checkbox-span svg {
     fill: var(--cloud);
 }
 

@@ -650,7 +650,7 @@ label {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn:hover,
-.modal-clos-btn:focus {
+.modal-close-btn:focus {
     background-color: var(--ocean);
     fill: var(--white);
     border: none;
@@ -678,6 +678,9 @@ form {
     flex-direction: column;
     border: none;
     margin-bottom: 8px;
+}
+.input-textarea {
+    margin-bottom: 16px
 }
 .modal-label {
     display: block;
@@ -777,7 +780,7 @@ form {
     fill: var(--iris)
 }
 
-span:checked {
+.checkbox-span:checked {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);

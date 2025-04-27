@@ -776,11 +776,11 @@ form {
     min-width: 169px;
     height: 56px;
 }
-.visually-hidden:checked + .checkbox-label .checkbox-span {
+.visually-hidden:checked + .checkbox-label {
     fill: var(--iris)
 }
 
-.checkbox-span:checked {
+.visually-hidden:checked + .checkbox-span {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
